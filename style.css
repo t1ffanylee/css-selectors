@@ -1,0 +1,40 @@
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-weight: bold;
+}
+
+p.intro {
+  color: green;
+}
+
+div + a {
+  font-size: 200px;
+}
+
+a:hover {
+  color: red;
+}
+
+p::first-letter {
+  font-size: 30px;
+}
+
+.back {
+  text-align: center;
+}
+
+.intro.moretext {
+  font-family: cursive;
+}
+
+.moretext.yo {
+  font-family: cursive;
+}
+
+p:nth-child(4) {
+  text-align: center;
+}
